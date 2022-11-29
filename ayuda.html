@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GUIA FI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link href="css/dashboard.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <link href="css/features.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="navbar sticky-top fondoHeader flex-md-nowrap p-0 shadow">
+        <div class="container text-center d-inline-block align-content-center">
+            <div class="row">
+                <div class="col-2 fondoHeader">
+                    <img class="imgUaemex" src="img/uaemex.png" width="130px" height="50px" />
+                </div>
+                <div class="col-8 mt-2 headerNombre">
+                    Guía para estudiantes de la <b>Facultad de Ingeniería </b>
+                </div>
+                <div class="col-2 fondoHeader">
+                    <img class="imgFI" src="img/fi.png" width="130px" height="50px" />
+                </div>
+            </div>
+            <div class="container d-none SmallHeader">
+                <div class="row">
+                    <div class="col-11">
+                        <img src="img/fi.png" width="130px" height="50px" />
+                    </div>
+                    <div class="col-1">
+                        <button class="navbar-toggler position-absolute d-md-none h-75 m-1 collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+                <div class="position-sticky pt-3 sidebar-sticky">
+                    <ul class="nav flex-column mx-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">
+                                <i class="bi bi-house-fill align-text-bottom mx-2"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="asesorias.html">
+                                <i class="bi bi-journal-bookmark-fill align-text-bottom mx-2"></i>
+                                Asesorías
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="biblioteca.html">
+                                <i class="bi bi-book-half align-text-bottom mx-2"></i>
+                                Biblioteca
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="controlEscolar.html">
+                                <i class="bi bi-person-video3 align-text-bottom mx-2"></i>
+                                Control Escolar
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="ss_y_pp.html">
+                                <i class="bi bi-people align-text-bottom mx-2"></i>
+                                S.S. y P.P.
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="titulacion.html">
+                                <i class="bi bi-mortarboard align-text-bottom mx-2"></i>
+                                Titulación
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h6
+                        class="sidebar-heading d-flex justify-content-between align-items-center px-3 py-2 mt-4 mb-1 text-bg-success text-uppercase">
+                        <span>Información Adicional</span>
+                        <a class="link-secondary text-white" href="#" aria-label="Add a new report">
+                            <span data-feather="plus-circle" class="align-text-bottom"></span>
+                        </a>
+                    </h6>
+                    <ul class="nav flex-column mb-2 mx-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="ayuda.html">
+                                <i class="bi bi-question-octagon mx-2"></i>
+                                Ayuda
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white selected" href="acercade.html">
+                                <i class="bi bi-info-circle mx-2"></i>
+                                Acerca de
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h5>Inicio</h5>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Share
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Export
+                            </button>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                            <span data-feather="calendar" class="align-text-bottom"></span>
+                            This week
+                        </button>
+                    </div>
+                </div>
+
+
+
+
+
+                <footer style="border-radius: 20px 20px; background-color: #3b8d72"
+                    class="mb-0 footer mt-5 pt-3 text-center text-lg-start bg-light text-muted">
+                    <div class="text-center p-1" style="background-color: #a38311"></div>
+
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <div class="row text-center mt-3">
+                                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        <i class="fas fa-gem me-3"></i>
+                                        <a href="https://fi.uaemex.mx/portal/inicio/home.php" class="text-reset">
+                                            Facultad de Ingeniería</a>
+                                    </h6>
+                                    <p>
+                                        Ubicado en: Universidad Autónoma del Estado de México.
+                                        <br />
+                                        Dirección: Cerro de Coatepec S/N, Ciudad Universitaria,
+                                        Universitaria, 50110 Toluca de Lerdo, Méx.
+                                    </p>
+                                </div>
+
+                                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        VÍNCULOS DE INTERÉS
+                                    </h6>
+                                    <p>
+                                        <a href="http://conacyt.gob.mx/" class="text-reset">CONACYT</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://www.sita.uaemex.mx/tutoria/" class="text-reset">SiTAA</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://www.uaemex.mx/" class="text-reset">UAEMéx</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://fi.uaemex.mx/sitreca/" class="text-reset">SITReCA</a>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                                    <p><i class="fas fa-home me-3"></i> Toluca, Edo. México</p>
+                                    <p>
+                                        <i class="fas fa-envelope me-3"></i>
+                                        difculting@gmail.com
+
+                                    </p>
+                                    <p><i class="fas fa-phone me-3"></i> (722) 214 08 55</p>
+                                    <p><i class="fas fa-print me-3"></i> (722) 214 07 95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="text-center p-4" style="background-color: #3b8d72">
+                        <div class="container w-25 h4">
+                            <div class="row justify-content-center align-items-center g-2" style="color: white">
+                                <div class="col">
+                                    <a class="text-white" style="text-decoration: none"
+                                        href="mailto:difculting@gmail.com"><i class="bi bi-envelope-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="text-white" href="https://www.facebook.com/FIUAEM">
+                                        <i class="bi bi-facebook"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a class="text-white" href="https://fi.uaemex.mx/portal/inicio/home.php">
+                                        <i class="bi bi-globe2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
