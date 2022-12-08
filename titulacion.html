@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GUIA FI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link href="css/dashboard.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    <link rel="icon" href="img/logo.png" />
+
+  <link href="css/features.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="navbar sticky-top fondoHeader flex-md-nowrap p-0 shadow">
+    <div class="container text-center d-inline-block align-content-center">
+      <div class="row">
+        <div class="col-2 fondoHeader">
+          <img class="imgUaemex" src="img/uaemex.png" width="130px" height="50px" />
+        </div>
+        <div class="col-8 mt-2 headerNombre">
+          Guía para estudiantes de la <b>Facultad de Ingeniería </b>
+        </div>
+        <div class="col-2 fondoHeader">
+          <img class="imgFI" src="img/fi.png" width="130px" height="50px" />
+        </div>
+      </div>
+      <div class="container d-none SmallHeader">
+        <div class="row">
+          <div class="col-11">
+            <img src="img/fi.png" width="130px" height="50px" />
+          </div>
+          <div class="col-1">
+            <button class="navbar-toggler position-absolute d-md-none h-75 m-1 collapsed" type="button"
+              data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+        <div class="position-sticky pt-3 sidebar-sticky">
+          <ul class="nav flex-column mx-1">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">
+                <i class="bi bi-house-fill align-text-bottom mx-2"></i>
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="asesorias.html">
+                <i class="bi bi-journal-bookmark-fill align-text-bottom mx-2"></i>
+                Asesorías
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="biblioteca.html">
+                <i class="bi bi-book-half align-text-bottom mx-2"></i>
+                Biblioteca
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="controlEscolar.html">
+                <i class="bi bi-person-video3 align-text-bottom mx-2"></i>
+                Control Escolar
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="ss_y_pp.html">
+                <i class="bi bi-people align-text-bottom mx-2"></i>
+                S.S. y P.P.
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white selected" href="titulacion.html">
+                <i class="bi bi-mortarboard align-text-bottom mx-2"></i>
+                Titulación
+              </a>
+            </li>
+          </ul>
+
+          <h6
+            class="sidebar-heading d-flex justify-content-between align-items-center px-3 py-2 mt-4 mb-1 text-bg-success text-uppercase">
+            <span>Información Adicional</span>
+            <a class="link-secondary text-white" href="#" aria-label="Add a new report">
+              <span data-feather="plus-circle" class="align-text-bottom"></span>
+            </a>
+          </h6>
+          <ul class="nav flex-column mb-2 mx-1">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="ayuda.html">
+                <i class="bi bi-question-octagon mx-2"></i>
+                Ayuda
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="acercade.html">
+                <i class="bi bi-info-circle mx-2"></i>
+                Acerca de
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h5>Titulación</h5>
+        </div>
+
+        <div class="text-center">
+
+          <div class="card m-3">
+            <div class="card-header">
+              Explicación
+            </div>
+            <div class="card-body">
+              <video src="videos/Titulacion.mp4" class="img-fluid w-50" muted controls autoplay loop></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-white m-3 bg-light">
+          <div class="card-header text-muted">
+            Modalidades de titulación con trabajo escrito
+          </div>
+          <div class="card-body">
+            <div class="container">
+
+              <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                      I. Artículo Especializado PARA PUBLICAR en Revista Indizada
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito original e inédito, donde se informe sobre un
+                      proceso de generación o aplicación del conocimiento.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      II. Ensayo
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito en el que se expone un tema determinado, con
+                      explicaciones, interpretaciones, reflexiones y propuestas mediante las cuáles el pasante muestra
+                      una postura intelectual, original, crítica y propositiva.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      III. Memoria de Experiencia Laboral
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito en el que se expone la recopilación y resultados
+                      de una experiencia profesional en un ámbito plenamente identificado y reconocido en el ejercicio
+                      de la profesión. Se deberá presentar constancia emitida por la institución donde se prestaron los
+                      servicios laborales, que especifique una duración continua de al menos dos años, o haber
+                      participado en un proyecto o subproyecto laboral desde su inicio hasta su conclusión.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      IV. Reporte de Aplicación de Conocimientos
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito en el que se reporta una propuesta de solución a
+                      un problema determinado, derivada de la aplicación de los conocimientos adquiridos durante la
+                      formación profesional.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      V. Reporte de Autoempleo Profesional
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un escrito original e inédito, donde se informa sobre la
+                      constitución y desarrollo de una unidad económica.
+                      <ul>
+                        <li>
+                          La temática debe estar relacionada con el plan de estudios, o con alguna área científica o
+                          técnica de la profesión.
+                        </li>
+                        <li>
+                          El reporte podrá ser individual o de hasta tres pasantes del mismo programa educativo.
+                        </li>
+                        <li>
+                          El pasante deberá presentar evidencias sobre la constitución legal de la unidad económica, y
+                          su participación directa como empleado, propietario, emprendedor, empresario o empleador, debe
+                          ser de al menos de un año.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      VI. Reporte de Residencia de Investigación
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito en el que se informa sobre la realización de
+                      actividades de
+                      apoyo a la investigación científica o tecnológica bajo la dirección de un profesor
+                      investigador activo en el Sistema Nacional de Investigadores u organismo similar. <br>
+                      <ul>
+                        <li>
+                          El proyecto deberá estar registrado en algún centro o instituto de investigación de prestigio
+                          nacional o internacional.
+
+                        </li>
+                        <li>
+                          Se deberá presentar la carta de estancia realizada con una duración no menor a seis meses.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      VII. Tesina
+                    </button>
+                  </h2>
+                  <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito en el que se reporta el desarrollo y resultados
+                      de una investigación documental de carácter monográfico. Para valorar la calidad de la
+                      investigación y del trabajo escrito,
+                      se tomarán en cuenta, entre otros, los aspectos siguientes:
+                      <br>
+                      <ul>
+                        <li>
+                          Realizar una aportación al estado del arte en el objeto de estudio o en la difusión de éste, y
+                        </li>
+                        <li>
+                          Presentar una comprensión y análisis propio del conocimiento expuesto.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      VIII. Tesis
+                    </button>
+                  </h2>
+                  <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en la elaboración de un trabajo escrito en el que se informa sobre el desarrollo y
+                      resultados de una investigación documenta, experimental, empírica o teórica. La tesis podrá ser
+                      individual, o de hasta tres pasantes del mismo programa educativo. Para valorar la calidad de la
+                      investigación y del trabajo escrito, se tomarán en cuenta, entre otros, los aspectos siguientes:
+                      <br>
+                      <ul>
+                        <li>
+                          Realizar una aportación para la profesión o disciplina, y
+                        </li>
+                        <li>
+                          Generar conocimiento o aplicarlo de forma innovadora.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-white m-3 bg-light">
+          <div class="card-header text-muted">
+            Modalidades de titulación sin trabajo escrito
+          </div>
+          <div class="card-body">
+            <div class="container">
+
+              <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingA">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseA" aria-expanded="false" aria-controls="collapseA">
+                      I. Aprovechamiento Académico
+                    </button>
+                  </h2>
+                  <div id="collapseA" class="accordion-collapse collapse" aria-labelledby="headingA"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en reconocer el esfuerzo y dedicación mostrados por el pasante durante se trayectoria
+                      escolar en los estudios profesionales cursados. Para aprobar la evaluación profesional en esta
+                      modalidad se considerará a los pasantes que, por generación y licenciatura cumplan con:
+                      <ul>
+                        <li>
+                          Haber obtenido promedio general mayor o igual a 8.5 puntos.
+                        </li>
+                        <li>
+                          Haber cursado el plan de estudios sin interrupciones.
+                        </li>
+                        <li>No tener calificaciones reprobatorias o anotaciones literales.
+                        </li>
+                        <li>Haber cubierto el 50% de los créditos del plan de estudios en la Universidad (aplica para
+                          los pasantes con revalidación, convalidación o reconocimiento de estudios).
+                        </li>
+                        <li>Haber solicitado por escrito la opción de evaluación profesional, dentro del primer año
+                          posterior a la conclusión de la carrera
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingB">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseB" aria-expanded="false" aria-controls="collapseB">
+                      II. Examen General de Egreso
+                    </button>
+                  </h2>
+                  <div id="collapseB" class="accordion-collapse collapse" aria-labelledby="headingA"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en reconocer la capacidad de desempeño profesional demostrada a través del EGEL que
+                      administra el CENEVAL. El pasante debe:
+
+
+                      <ul>
+                        <li>
+                          Haber tramitado la solicitud en el Departamento de Evaluación Profesional de la Facultad de
+                          Ingeniería, antes de presentar el examen.
+                        </li>
+                        <li>
+                          Haber presentado el Examen General de Egreso.
+                        </li>
+                        <li>
+                          Haber obtenido un resultado de testimonio de Desempeño Satisfactorio o de Desempeño
+                          Sobresaliente. El resultado Aún No Satisfactorio se considerará como evaluación profesional
+                          aplazada.
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingC">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
+                      III. Créditos en Estudios Avanzados
+                    </button>
+                  </h2>
+                  <div id="collapseC" class="accordion-collapse collapse" aria-labelledby="headingC"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Consiste en reconocer la trayectoria escolar del pasante en cursos y actividades académicas
+                      acreditadas, en los estudios de especialidad o maestría. Los estudios deberán ser afines al plan
+                      de estudios cursados. No serán aceptadas solicitudes de evaluación profesional con estudios de
+                      especialidad o maestría a distancia, abiertos u otros sistemas similares. Para la evaluación
+                      profesional se deberá presentar:
+                      <ul>
+                        <li>
+                          La solicitud parar titularse por Créditos en Estudios Avanzados y autorización por parte de la
+                          Subdirección Académica (previa a la realización de los estudios).
+                        </li>
+                        <li>
+                          La carta de aceptación a los estudios.
+                        </li>
+                        <li>
+                          El plan de estudios oficial que avale los cursos y actividades con el valor curricular
+                          correspondiente.
+                        </li>
+                        <li>
+                          El registro del programa educativo en la SEP o registro oficial.
+                        </li>
+                        <li>
+                          El documento que certifique el 100% de los créditos para especialidad o 75% para maestría. El
+                          pasante que incumpla este requisto en los plazos de duración mínimos previstos en el plan de
+                          estudios respectivo, se considerará aplazado en su evaluacion profesional.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <footer style="border-radius: 20px 20px; background-color: #3b8d72"
+          class="mb-0 footer mt-5 pt-3 text-center text-lg-start bg-light text-muted">
+          <div class="text-center p-1" style="background-color: #a38311"></div>
+
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <div class="row text-center mt-3">
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>
+                    <a href="https://fi.uaemex.mx/portal/inicio/home.php" class="text-reset">
+                      Facultad de Ingeniería</a>
+                  </h6>
+                  <p>
+                    Ubicado en: Universidad Autónoma del Estado de México.
+                    <br />
+                    Dirección: Cerro de Coatepec S/N, Ciudad Universitaria,
+                    Universitaria, 50110 Toluca de Lerdo, Méx.
+                  </p>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    VÍNCULOS DE INTERÉS
+                  </h6>
+                  <p>
+                    <a href="http://conacyt.gob.mx/" class="text-reset">CONACYT</a>
+                  </p>
+                  <p>
+                    <a href="https://www.sita.uaemex.mx/tutoria/" class="text-reset">SiTAA</a>
+                  </p>
+                  <p>
+                    <a href="https://www.uaemex.mx/" class="text-reset">UAEMéx</a>
+                  </p>
+                  <p>
+                    <a href="https://fi.uaemex.mx/sitreca/" class="text-reset">SITReCA</a>
+                  </p>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                  <p><i class="fas fa-home me-3"></i> Toluca, Edo. México</p>
+                  <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    difculting@gmail.com
+
+                  </p>
+                  <p><i class="fas fa-phone me-3"></i> (722) 214 08 55</p>
+                  <p><i class="fas fa-print me-3"></i> (722) 214 07 95</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="text-center p-4" style="background-color: #3b8d72">
+            <div class="container w-25 h4">
+              <div class="row justify-content-center align-items-center g-2" style="color: white">
+                <div class="col">
+                  <a class="text-white" style="text-decoration: none" href="mailto:difculting@gmail.com"><i
+                      class="bi bi-envelope-fill"></i>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="text-white" href="https://www.facebook.com/FIUAEM">
+                    <i class="bi bi-facebook"></i></a>
+                </div>
+                <div class="col">
+                  <a class="text-white" href="https://fi.uaemex.mx/portal/inicio/home.php">
+                    <i class="bi bi-globe2"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
